@@ -1,0 +1,36 @@
+<odoo>
+    <data>
+        <!-- ********** | Inherit Res Partner Form to Add Prosperity Fields | ************  -->
+        <record id="view_partner_form_inherit" model="ir.ui.view">
+            <field name="name">view.partner.form.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <!--  Fields  -->
+                <xpath expr="//form/sheet/div/h1" position="after">
+                    <group>
+                        <field name="property_customer_type" colspan="1"/>
+                    </group>
+                </xpath>
+                <!--  Note Book  -->
+                <xpath expr="//form/sheet/notebook" position="inside">
+                    <page name="prosperity" string="Prosperity Info">
+                        <group>
+                            <group string="Tenant Information" invisible="property_customer_type != 'tenant' ">
+                                <field name="authorizedPerson"/>
+                                <field name="commercialNumber"/>
+                                <field name="nationalId"/>
+                                <field name="tenantMobile"/>
+                            </group>
+                            <group string="Landlord Information" invisible="property_customer_type != 'land_lord' ">
+                                <field name="faalLicense"/>
+                                <field name="landlordAuthorizedPerson"/>
+                                <field name="landlordMobile"/>
+                            </group>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
