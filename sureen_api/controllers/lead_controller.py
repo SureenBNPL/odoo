@@ -2,6 +2,8 @@
 from odoo import http
 from odoo.http import request
 
+from .config import APIConfig
+
 
 class RealEstateAPI(http.Controller):
     """
@@ -9,7 +11,7 @@ class RealEstateAPI(http.Controller):
     - Submit Lead
     """
 
-    @http.route('/leads', type='json', auth='public', csrf=False, method=['POST'],cors='*')
+    @http.route(APIConfig.get_full_url('/leads'), type='json', auth='public', csrf=False, method=['POST'],cors='*')
     def submit_lead(self, **kwargs):
         """
             Get The Lead From Portal
