@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Sureen Project",
+    'name': "Sureen API",
 
     'summary': "Sureen Customize And API",
 
