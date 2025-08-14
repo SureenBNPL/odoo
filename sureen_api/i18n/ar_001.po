@@ -1,0 +1,136 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sureen_api
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-14 10:54+0000\n"
+"PO-Revision-Date: 2025-08-14 10:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sureen_api
+#: model:ir.model.fields,field_description:sureen_api.field_crm_lead__commercialNumber
+#: model:ir.model.fields,field_description:sureen_api.field_res_partner__commercialNumber
+#: model:ir.model.fields,field_description:sureen_api.field_res_users__commercialNumber
+msgid " Commercial Number"
+msgstr "رقم السجل التجاري"
+
+#. module: sureen_api
+#: model:ir.model.fields,field_description:sureen_api.field_crm_lead__tenantMobile
+#: model:ir.model.fields,field_description:sureen_api.field_res_partner__tenantMobile
+#: model:ir.model.fields,field_description:sureen_api.field_res_users__tenantMobile
+msgid " Mobile"
+msgstr "الجوال"
+
+#. module: sureen_api
+#: model:ir.model.fields,field_description:sureen_api.field_crm_lead__authorizedPerson
+#: model:ir.model.fields,field_description:sureen_api.field_crm_lead__landlordAuthorizedPerson
+#: model:ir.model.fields,field_description:sureen_api.field_res_partner__authorizedPerson
+#: model:ir.model.fields,field_description:sureen_api.field_res_partner__landlordAuthorizedPerson
+#: model:ir.model.fields,field_description:sureen_api.field_res_users__authorizedPerson
+#: model:ir.model.fields,field_description:sureen_api.field_res_users__landlordAuthorizedPerson
+msgid "Authorized Person"
+msgstr "اسم المفوض"
+
+#. module: sureen_api
+#: model:ir.model.fields.selection,name:sureen_api.selection__crm_lead__propertyType__commercial
+msgid "Commercial"
+msgstr "تجاري"
+
+#. module: sureen_api
+#: model:ir.model,name:sureen_api.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: sureen_api
+#: model:ir.model.fields,field_description:sureen_api.field_res_partner__property_customer_type
+#: model:ir.model.fields,field_description:sureen_api.field_res_users__property_customer_type
+msgid "Customer Type"
+msgstr "نوع العميل"
+
+#. module: sureen_api
+#: model:ir.model.fields,field_description:sureen_api.field_crm_lead__faalLicense
+#: model:ir.model.fields,field_description:sureen_api.field_res_partner__faalLicense
+#: model:ir.model.fields,field_description:sureen_api.field_res_users__faalLicense
+msgid "Faal License"
+msgstr "رقم رخصة فال"
+
+#. module: sureen_api
+#: model:ir.model.fields,field_description:sureen_api.field_crm_lead__foundProperty
+msgid "Found Property"
+msgstr "هل وجدت العقار بالفعل؟"
+
+#. module: sureen_api
+#: model:ir.model.fields,field_description:sureen_api.field_crm_lead__landlord_id
+#: model:ir.model.fields.selection,name:sureen_api.selection__res_partner__property_customer_type__land_lord
+#: model_terms:ir.ui.view,arch_db:sureen_api.view_lead_form_inherit
+msgid "Land Lord"
+msgstr "المؤجر"
+
+#. module: sureen_api
+#: model_terms:ir.ui.view,arch_db:sureen_api.view_partner_form_inherit
+msgid "Landlord Information"
+msgstr "بيانات المؤجر"
+
+#. module: sureen_api
+#: model:ir.model,name:sureen_api.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "عميل مهتم/فرصة "
+
+#. module: sureen_api
+#: model:ir.model.fields,field_description:sureen_api.field_crm_lead__landlordMobile
+#: model:ir.model.fields,field_description:sureen_api.field_res_partner__landlordMobile
+#: model:ir.model.fields,field_description:sureen_api.field_res_users__landlordMobile
+msgid "Mobile"
+msgstr "الجوال"
+
+#. module: sureen_api
+#: model:ir.model.fields,field_description:sureen_api.field_crm_lead__nationalId
+#: model:ir.model.fields,field_description:sureen_api.field_res_partner__nationalId
+#: model:ir.model.fields,field_description:sureen_api.field_res_users__nationalId
+msgid "National Id"
+msgstr "رقم الهوية"
+
+#. module: sureen_api
+#: model:ir.model.fields.selection,name:sureen_api.selection__crm_lead__foundProperty__no
+msgid "No"
+msgstr "لا"
+
+#. module: sureen_api
+#: model:ir.model.fields,field_description:sureen_api.field_crm_lead__propertyType
+msgid "Property Type"
+msgstr "نوع العقار"
+
+#. module: sureen_api
+#: model_terms:ir.ui.view,arch_db:sureen_api.view_partner_form_inherit
+msgid "Prosperity Info"
+msgstr "بيانات العقار"
+
+#. module: sureen_api
+#: model:ir.model.fields.selection,name:sureen_api.selection__crm_lead__propertyType__residential
+msgid "Residential"
+msgstr "سكني"
+
+#. module: sureen_api
+#: model:ir.model.fields,field_description:sureen_api.field_crm_lead__tenant_id
+#: model:ir.model.fields.selection,name:sureen_api.selection__res_partner__property_customer_type__tenant
+#: model_terms:ir.ui.view,arch_db:sureen_api.view_lead_form_inherit
+msgid "Tenant"
+msgstr "المستأجر"
+
+#. module: sureen_api
+#: model_terms:ir.ui.view,arch_db:sureen_api.view_partner_form_inherit
+msgid "Tenant Information"
+msgstr "بيانات المستأجر"
+
+#. module: sureen_api
+#: model:ir.model.fields.selection,name:sureen_api.selection__crm_lead__foundProperty__yes
+msgid "Yes"
+msgstr "نعم"
